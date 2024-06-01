@@ -97,6 +97,12 @@ body {
     text-decoration: none;
 }
 
+.nav__links--negro {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 /* Hero container */
 
 .hero__container {

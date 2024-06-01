@@ -3,33 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="images/icono_equumaq_f_transparente_solo_batidora.ico"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="images/fabicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Equipamiento gastronomico</title>
+    <title>EQUUMAQ Equipamiento gastronómico</title>
   </head>
   <body>
-    <header class="hero">
+    <header class="hero" id="inicio">
       <nav class="nav container">
         <div class="nav__logo">
-          <h2 class="nav__title">Equumaq</h2>
+          <h2 class="nav__title">EQUUMAQ</h2>
         </div>
         <ul class="nav__link nav__link--menu">
           <li class="nav__items">
-            <a href="#" class="nav__links">Inicio</a>
+            <a href="#inicio" class="nav__links">Inicio</a>
           </li>
           <li class="nav__items">
-            <a href="#" class="nav__links">Acerca de</a>
+            <a href="#nosotros" class="nav__links">Nosotros</a>
           </li>
           <li class="nav__items">
-            <a href="#" class="nav__links">Contactános</a>
+            <a href="#testimonios" class="nav__links">Testimonios</a>
           </li>
           <li class="nav__items">
-            <a href="#" class="nav__links">Registráte</a>
+            <a href="#catalogo" class="nav__links">Catálogo</a>
+          </li>
+          <li class="nav__items">
+            <a href="#contacto" class="nav__links">Contactános</a>
           </li>
           <img src="images/close.svg" alt="close action" class="nav__close" />
         </ul>
@@ -57,12 +56,14 @@
     </header>
 
     <main>
-      <section class="container about">
-        <h2 class="subtitle">Que es lo que te ofrecemos</h2>
+      <section class="container about" id="nosotros">
+        <h2 class="subtitle">¿Quiénes somos?</h2>
         <p class="about__paragraph">
-          Todo lo necesarioa y fundamental para conseguir el equipamiento
-          gastronomico o de panaderia totalmente funcional y productivo, sin
-          descuidar en ningun momento el mantenimiento de los equipos.
+          En EQUUMAQ, creemos firmemente que el éxito de tu negocio es también
+          nuestro éxito. Nos dedicamos a proporcionar el mejor equipamiento
+          gastronómico para panaderías, cafeterías y restaurantes, sabiendo que
+          cada pieza de maquinaria es una inversión crucial para el crecimiento
+          y la excelencia de tu empresa.
         </p>
         <dvi class="about__main">
           <article class="about__icons">
@@ -96,7 +97,7 @@
         <div class="knowledge__container container">
           <figure class="knowledge__picture">
             <img
-              src="images/panes-transparente.webp"
+              src="images/mezcladorapng.png"
               alt="entrega de conocimiento"
               class="knowledge__img"
             />
@@ -115,13 +116,18 @@
         </div>
       </section>
 
-      <section class="price container">
-        <h2 class="subtitle">Obtene el equipamiento perfecto para iniciar</h2>
+      <section class="price container" id="catalogo">
+        <h2 class="subtitle">
+          Consulta nuestros catálogos par que se te haga muy fácil dar el paso
+          inicial:
+        </h2>
 
         <div class="price__table">
           <div class="price__element">
-            <p class="price__name">Panaderia y reposteria</p>
-            <h3 class="price__price">Encontraras</h3>
+            <p class="price__name">
+              Consulta catálogo y precios de equipos de:
+            </p>
+            <h3 class="price__price">Panaderia y reposteria</h3>
 
             <div class="price__items">
               <p class="price__features">Batidoras</p>
@@ -133,8 +139,8 @@
           </div>
 
           <div class="price__element price__element--best">
-            <p class="price__name">Cafeteria</p>
-            <h3 class="price__price">Encontraras</h3>
+            <p class="price__name">AHORA APROVECHA NUESTRA LOCURA</p>
+            <h3 class="price__price">¡OFERTA! en Cafetería y Bar</h3>
 
             <div class="price__items">
               <p class="price__features">Cafeteras</p>
@@ -146,8 +152,10 @@
           </div>
 
           <div class="price__element">
-            <p class="price__name">Restaurantes</p>
-            <h3 class="price__price">Encontraras</h3>
+            <p class="price__name">
+              Consulta catálogo y precios de equipos de:
+            </p>
+            <h3 class="price__price">Restaurante y Pizzeria</h3>
 
             <div class="price__items">
               <p class="price__features">Mesas</p>
@@ -160,7 +168,7 @@
         </div>
       </section>
 
-      <section class="testimony">
+      <section class="testimony" id="testimonios">
         <div class="testimony__container container">
           <img
             src="images/leftarrow.svg"
@@ -177,10 +185,14 @@
                 >
               </h2>
               <p class="testimony__review">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum,
-                debitis magnam. Explicabo voluptate expedita laudantium harum
-                excepturi quaerat in impedit corporis iure unde nesciunt dolore
-                reiciendis, deleniti quos earum possimus.
+                "Desde que decidí abrir mi propia panadería, 'Delicias
+                Hogareñas', supe que necesitaba el mejor equipamiento para
+                asegurarme de ofrecer productos de la más alta calidad a mis
+                clientes. Fue entonces cuando encontré a EQUUMAQ. Desde el
+                primer contacto, su equipo mostró un nivel de profesionalismo y
+                conocimiento que superó todas mis expectativas. Su apoyo
+                continuo ha sido invaluable y recomiendo sus servicios a
+                cualquier persona que quiera abrir o mejorar su panadería.
               </p>
             </div>
 
@@ -202,12 +214,15 @@
                 >
               </h2>
               <p class="testimony__review">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum,
-                debitis magnam. Explicabo voluptate expedita laudantium harum
-                excepturi quaerat in impedit corporis iure unde nesciunt dolore
-                reiciendis, deleniti quos earum possimus. dita laudantium harum
-                excepturi quaerat in impedit corporis iure unde nesciunt dolore
-                reiciendis, deleniti quos earum possimus
+                "Adquirir el equipamiento de EQUUMAQ ha sido una de las mejores
+                decisiones para mi restaurante, 'Delicias de Mamá'. Su equipo no
+                solo me proporcionó las mejores herramientas de cocina, sino que
+                también me ofrecieron un servicio excepcional desde el primer
+                momento. Gracias a su asesoramiento y a la calidad de sus
+                productos, hemos podido mejorar la eficiencia en nuestra cocina
+                y la calidad de nuestros platos. Nuestros clientes están
+                encantados y nosotros también. Recomiendo totalmente sus
+                servicios a cualquier dueño de restaurante."
               </p>
             </div>
 
@@ -229,9 +244,12 @@
                 >
               </h2>
               <p class="testimony__review">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum,
-                debitis magnam. Explicabo voluptate expedita laudantium harum
-                excepturi quaerat in impedit.
+                "Desde que abrí 'Café Al Pasito', contar con el equipamiento
+                adecuado ha sido clave para nuestro éxito. EQUUMAQ nos
+                proporcionó todo lo que necesitábamos, desde cafeteras hasta
+                vitrinas de exhibición, y su equipo fue increíblemente atento y
+                profesional. Sin duda, recomiendo sus servicios a cualquier
+                propietario de café."
               </p>
             </div>
 
@@ -255,15 +273,18 @@
       <section class="questions container">
         <h2 class="subtitle">Preguntas frecuentes</h2>
         <p class="questions__paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio
-          quaerat magnam tenetur iusto corporis velit consectetur sit
+          Estas son las tres preguntas que nuestros clientes hacen con mayor
+          frecuencia, si la tuya no se encuentra aqui, por favor sientete libre
+          de contactaros por email haciendo click
+          <a href="#" class="nav__links--negro">aqui</a>
         </p>
 
         <section class="questions__container">
           <article class="questions__padding">
             <div class="questions__answer">
               <h3 class="questions__title">
-                como puedo comprar?
+                ¿Qué tipos de equipamiento ofrecen para panaderías, cafeterías y
+                restaurantes?
                 <span class="questions__arrow">
                   <img
                     src="images/arrow.svg"
@@ -274,17 +295,16 @@
               </h3>
 
               <p class="questions__show">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum,
-                et cum numquam quia molestias atque aliquid voluptatem sed
-                exercitationem eos quidem cumque quas, obcaecati impedit optio
-                eligendi velit, laboriosam totam. A voluptas laboriosam nisi
-                esse, sit reiciendis quia quibusdam sapiente earum modi omnis
-                eum deserunt laudantium id, qui delectus inventore suscipit nemo
-                rerum nulla fugiat soluta. Provident delectus facere laudantium?
-                Aspernatur vel ad non animi, tenetur aliquam et ullam quo
-                laborum placeat nobis architecto obcaecati, nulla aut itaque!
-                Laboriosam similique accusamus repudiandae consectetur, officiis
-                blanditiis quos hic qui beatae quo.
+                Ofrecemos una amplia gama de equipamiento gastronómico
+                especializado para cada tipo de negocio. Para panaderías,
+                tenemos hornos de alta capacidad, amasadoras, batidoras
+                industriales y vitrinas de exhibición. Para cafeterías, contamos
+                con cafeteras profesionales, molinos de café, vitrinas
+                refrigeradas y máquinas de espresso. Para restaurantes,
+                ofrecemos cocinas industriales, freidoras, parrillas,
+                refrigeradores y mucho más. Nuestro objetivo es proporcionar
+                todo lo que necesitas para operar eficientemente y ofrecer
+                productos de alta calidad a tus clientes.
               </p>
             </div>
           </article>
@@ -292,7 +312,8 @@
           <article class="questions__padding">
             <div class="questions__answer">
               <h3 class="questions__title">
-                como puedo comprar?
+                ¿Ofrecen asesoramiento para elegir el equipamiento adecuado para
+                mi negocio?
                 <span class="questions__arrow">
                   <img
                     src="/images/arrow.svg"
@@ -303,17 +324,13 @@
               </h3>
 
               <p class="questions__show">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum,
-                et cum numquam quia molestias atque aliquid voluptatem sed
-                exercitationem eos quidem cumque quas, obcaecati impedit optio
-                eligendi velit, laboriosam totam. A voluptas laboriosam nisi
-                esse, sit reiciendis quia quibusdam sapiente earum modi omnis
-                eum deserunt laudantium id, qui delectus inventore suscipit nemo
-                rerum nulla fugiat soluta. Provident delectus facere laudantium?
-                Aspernatur vel ad non animi, tenetur aliquam et ullam quo
-                laborum placeat nobis architecto obcaecati, nulla aut itaque!
-                Laboriosam similique accusamus repudiandae consectetur, officiis
-                blanditiis quos hic qui beatae quo.
+                ¡Sí, claro! Entendemos que cada negocio tiene necesidades
+                únicas. Por eso, nuestro equipo de expertos está disponible para
+                asesorarte en la selección del equipamiento que mejor se adapte
+                a tus requerimientos específicos. Podemos ayudarte a diseñar la
+                distribución de tu cocina o área de trabajo, asegurándonos de
+                que aproveches al máximo tu espacio y de que tengas todo lo
+                necesario para operar con eficiencia y éxito.
               </p>
             </div>
           </article>
@@ -321,7 +338,8 @@
           <article class="questions__padding">
             <div class="questions__answer">
               <h3 class="questions__title">
-                como puedo comprar?
+                ¿Cuentan con servicio técnico y mantenimiento para el
+                equipamiento?
                 <span class="questions__arrow">
                   <img
                     src="/images/arrow.svg"
@@ -332,17 +350,15 @@
               </h3>
 
               <p class="questions__show">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum,
-                et cum numquam quia molestias atque aliquid voluptatem sed
-                exercitationem eos quidem cumque quas, obcaecati impedit optio
-                eligendi velit, laboriosam totam. A voluptas laboriosam nisi
-                esse, sit reiciendis quia quibusdam sapiente earum modi omnis
-                eum deserunt laudantium id, qui delectus inventore suscipit nemo
-                rerum nulla fugiat soluta. Provident delectus facere laudantium?
-                Aspernatur vel ad non animi, tenetur aliquam et ullam quo
-                laborum placeat nobis architecto obcaecati, nulla aut itaque!
-                Laboriosam similique accusamus repudiandae consectetur, officiis
-                blanditiis quos hic qui beatae quo.
+                Sí, ofrecemos un servicio completo de soporte técnico y
+                mantenimiento para todo el equipamiento que vendemos. Nuestro
+                equipo de técnicos especializados está capacitado para realizar
+                instalaciones, reparaciones y mantenimiento preventivo,
+                garantizando que tus máquinas funcionen de manera óptima y que
+                cualquier problema se resuelva rápidamente. Además, ofrecemos
+                contratos de mantenimiento para asegurarte de que tu
+                equipamiento se mantenga en perfectas condiciones a lo largo del
+                tiempo.
               </p>
             </div>
           </article>
@@ -351,13 +367,14 @@
         <section class="questions__offer">
           <h2 class="subtitle">Estas listo para crecer?</h2>
           <p class="questions__copy">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-            praesentium deserunt voluptate nihil aliquid voluptatum laudantium
-            corrupti quis, dolores minima, sunt pariatur repellendus, eum
-            provident fuga dolore dignissimos ipsam minus! Exercitationem neque
-            nesciunt nemo eveniet ipsa libero obcaecati eius, dolores animi
+            Tu éxito es nuestra prioridad. Ofrecemos equipamiento gastronómico
+            de alta calidad para panaderías, cafeterías y restaurantes, junto
+            con asesoramiento experto y soporte técnico continuo. Nos
+            comprometemos a ayudarte a alcanzar tus metas, porque creemos que tu
+            éxito es también el nuestro. ¡Trabaja con nosotros y llevemos juntos
+            tu negocio al siguiente nivel!
           </p>
-          <a href="#" class="cta">Equipate ahora!</a>
+          <a href="#" class="cta">Animáte</a>
         </section>
       </section>
     </main>
@@ -371,18 +388,18 @@
               <a href="#" class="nav__links">Inicio</a>
             </li>
             <li class="nav__items">
-              <a href="#" class="nav__links">Acerca de</a>
+              <a href="#" class="nav__links">Nosotros</a>
             </li>
             <li class="nav__items">
-              <a href="#" class="nav__links">Contactános</a>
+              <a href="#testimonios" class="nav__links">Testimonios</a>
             </li>
             <li class="nav__items">
-              <a href="#" class="nav__links">Registráte</a>
+              <a href="#" class="nav__links">Catálogo</a>
             </li>
           </ul>
         </nav>
 
-        <form class="footer__form">
+        <form class="footer__form" id="contacto">
           <h2 class="footer__newsletter">Contactanos</h2>
           <div class="footer__inputs">
             <input type="email" placeholder="Tu correo" class="footer__input" />
