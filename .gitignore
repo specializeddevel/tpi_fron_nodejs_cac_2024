@@ -1,0 +1,6 @@
+# Editor configuration
+.vscode/
+
+# Temporary icon files
+fabicon32.png
+fabiconant.ico
