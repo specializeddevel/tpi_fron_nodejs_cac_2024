@@ -8,13 +8,6 @@
     const openButton = document.querySelector('.nav__menu');
     const menu = document.querySelector('.nav__link');
     const closeMenu = document.querySelector('.nav__close');
-    const menuLinks = document.querySelectorAll('.nav__link a');
-
-    menuLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            menu.classList.remove('nav__link--show');
-        });
-    });
 
     openButton.addEventListener('click', ()=>{
         menu.classList.add('nav__link--show');
@@ -24,8 +17,9 @@
         menu.classList.remove('nav__link--show');
     });
 
+    // Event delegation to close menu on link click or background click
     menu.addEventListener('click', (e)=>{
-        if(e.target.classList.contains('nav__link')){
+        if (e.target.matches('.nav__links') || e.target.matches('.nav__link')) {
             menu.classList.remove('nav__link--show');
         }
     });

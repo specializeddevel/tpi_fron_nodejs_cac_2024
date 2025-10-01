@@ -13,18 +13,15 @@
         changePosition(-1);
     });
 
-    const changePosition = (add)=>{
-        const currentTestimony = document.querySelector('.testimony__body--show').dataset.id;
-        let value = Number(currentTestimony);
-        value += add;
+    const changePosition = (add) => {
+        const currentSlider = document.querySelector('.testimony__body--show');
+        let currentIndex = sliders.findIndex(slider => slider === currentSlider);
 
-        sliders[currentTestimony-1].classList.remove('testimony__body--show');
+        sliders[currentIndex].classList.remove('testimony__body--show');
 
-        if(value === sliders.length+1 || value === 0){
-            value = value === 0 ? sliders.length : 1;
-        }
-        
-        sliders[value-1].classList.add('testimony__body--show');
+        let nextIndex = (currentIndex + add + sliders.length) % sliders.length;
+
+        sliders[nextIndex].classList.add('testimony__body--show');
     }
 
 
