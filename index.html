@@ -13,7 +13,10 @@
     <header class="hero" id="inicio">
       <nav class="nav container">
         <div class="nav__logo">
-          <h2 class="nav__title">EquiMaq</h2>
+          <a href="#inicio">
+            <img src="images/logomain.png" alt="EquiMaq Logo" class="nav__logo-img" />
+            <h2 class="nav__title nav__title--mobile">EquiMaq</h2>
+          </a>
         </div>
         <ul class="nav__link nav__link--menu">
           <li class="nav__items">
@@ -44,6 +47,7 @@
       </nav>
 
       <section class="hero__container container">
+        <img src="images/logomain.png" alt="EquiMaq Logo" class="hero__logo">
         <h1 class="hero__title">
           Emprende o fortalece tu negocio gastronómico
         </h1>
@@ -52,7 +56,7 @@
           si eres un emprendedor o un negocio consolidado en el mercado
           gastronómico, buscamos poder crecer juntos, cada dia un poco mas.
         </p>
-        <a href="#" class="cta">Comencemos ahora</a>
+        <a href="#catalogo" class="cta">Comencemos ahora</a>
       </section>
     </header>
 
@@ -112,7 +116,7 @@
               tambien te brindamos el conocimiento necesario para que puedas
               sacar el mayor provecho de ellos.
             </p>
-            <a href="#" class="cta">Leer mas</a>
+            <a href="#nosotros" class="cta">Leer mas</a>
           </div>
         </div>
       </section>
@@ -124,11 +128,11 @@
         </h2>
 
         <div class="price__table">
-          <div class="price__element">
+          <div class="price__element price__element--panaderia">
             <p class="price__name">
-              Consulta catálogo y precios de equipos de:
+              Catálogo
             </p>
-            <h3 class="price__price">Panaderia y reposteria</h3>
+            <h3 class="price__price">Panaderia y Repostería</h3>
 
             <div class="price__items">
               <p class="price__features">Batidoras</p>
@@ -136,12 +140,12 @@
               <p class="price__features">Boleadoras</p>
             </div>
 
-            <a href="#" class="price__cta">Ver todo</a>
+            <a href="catalogo-panaderia.html" class="price__cta">Ver todo</a>
           </div>
 
-          <div class="price__element price__element--best">
-            <p class="price__name">AHORA APROVECHA NUESTRA LOCURA</p>
-            <h3 class="price__price">¡OFERTA! en Cafetería y Bar</h3>
+          <div class="price__element price__element--cafeteria">
+            <p class="price__name">Catálogo</p>
+            <h3 class="price__price">Cafetería y Bar</h3>
 
             <div class="price__items">
               <p class="price__features">Cafeteras</p>
@@ -152,11 +156,11 @@
             <a href="#" class="price__cta">Ver todo</a>
           </div>
 
-          <div class="price__element">
+          <div class="price__element price__element--restaurante">
             <p class="price__name">
-              Consulta catálogo y precios de equipos de:
+              Catálogo
             </p>
-            <h3 class="price__price">Restaurante y Pizzeria</h3>
+            <h3 class="price__price">Restaurante y Pizzería</h3>
 
             <div class="price__items">
               <p class="price__features">Mesas</p>
@@ -193,7 +197,7 @@
                 primer contacto, su equipo mostró un nivel de profesionalismo y
                 conocimiento que superó todas mis expectativas. Su apoyo
                 continuo ha sido invaluable y recomiendo sus servicios a
-                cualquier persona que quiera abrir o mejorar su panadería.
+                cualquier persona que quiera abrir o mejorar su panadería."
               </p>
             </div>
 
@@ -375,12 +379,20 @@
             éxito es también el nuestro. ¡Trabaja con nosotros y llevemos juntos
             tu negocio al siguiente nivel!
           </p>
-          <a href="#" class="cta">Animáte</a>
+          <a href="#contacto" class="cta">Animáte</a>
         </section>
       </section>
     </main>
 
     <footer class="footer">
+      <section class="footer__contact-section container">
+        <div class="footer__contact">
+            <h2 class="footer__newsletter">Información de Contacto</h2>
+            <p class="footer__contact-item"><strong>Cel/WhatsApp:</strong> (+591) 77231436 - (+591) 72541913</p>
+            <p class="footer__contact-item"><strong>E-mail:</strong> <a href="mailto:equi.maqlapaz@gmail.com" class="footer__link">equi.maqlapaz@gmail.com</a></p>
+            <p class="footer__contact-item"><strong>Oficina:</strong> Av. Sucre Nro. 823 - Edificio Mariscal Sucre - PB - Oficina 2, La Paz - Bolivia</p>
+        </div>
+      </section>
       <section class="footer__container container">
         <nav class="nav nav--footer">
           <h2 class="footer__title">EquiMaq</h2>
@@ -429,13 +441,13 @@
           <a href="#" class="footer__icons"
             ><img src="images/twitter.svg" alt="twitter" class="footer_img"
           /></a>
-          <a href="#" class="footer__icons"
+          <a href="#" class_="footer__icons"
             ><img src="images/youtube.svg" alt="youtube" class="footer_img"
           /></a>
         </div>
 
         <h3 class="footer__copyright">
-          Derechos reservados 2024&copy; Grupo #2 comisión 24127 - Codo a Codo
+          Derechos reservados 2025&copy; Specialized Development
         </h3>
       </section>
     </footer>
@@ -443,5 +455,6 @@
     <script src="js/slider.js"></script>
     <script src="js/questions.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/hero-slider.js"></script>
   </body>
 </html>
